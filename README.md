@@ -13,3 +13,12 @@ EJECUTAR:
 -> node -v
 
 -> npm -v
+
+<-- NOTAS IMPORTANTES -->
+
+1. apli02: Se configuró el entorno para la ejecución del mini proyecto y una lectura en texto plano.
+
+2. apli03: Se configuró para la ejecución de lectura en archivos html de forma asíncrona.
+
+3. apli04Sync: Se configuró para la ejecución de lectura en archivos html de forma síncrona.
+
