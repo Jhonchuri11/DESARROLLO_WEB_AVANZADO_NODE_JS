@@ -32,7 +32,7 @@ EJECUTAR:
    
 - git clone -b feature/semana1_install_node_js
 
-4. Para ejecutar una de los archivos .js el terminal ejecutar
+4. Para ejecutar una de los archivos .js en el terminal ejecutar
 
 - node <nombreArchivo sin la extensión>
 - EXAMPLE: node apli01
