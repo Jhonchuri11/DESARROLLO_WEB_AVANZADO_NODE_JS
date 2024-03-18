@@ -1,0 +1,51 @@
+<div class="container p-4" style="margin-top: 70px;">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase">ACTUALIZAR PEDIDO</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/editpedido/{{pedido.id}}" method="post">
+                    <div class="input-group mt-2">
+                        <label for="name" class="input-group-text">Cliente</label>
+                        <input type="text" class="form-control"
+                        name="idcliente" id="idcliente"
+                        value="{{pedido.idcliente}}"
+                        readonly>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="fecha"  class="input-group-text">Fecha de pedido</label>
+                        <input type="date" class="form-control" name="fecha" id="fecha" placeholder="Example: 2024-03-17"
+                        value="{{pedido.fecha}}"
+                        readonly>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="age" class="input-group-text">Estado de pedido</label>
+                        <input type="text" class="form-control" name="estado" id="estado" placeholder="Estado: pendiente, entregado, etc"
+                        value="{{pedido.estado}}"
+                        required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="age" class="input-group-text">Total</label>
+                        <input type="text" class="form-control" name="total" id="total" placeholder="Total de costo"
+                        value="{{pedido.total}}"
+                        required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="age" class="input-group-text">Medio de pago</label>
+                        <input type="text" class="form-control" name="metodopago" id="metodopago" placeholder="Exampe: Yape, Visa, Efectivo"
+                        value="{{pedido.metodopago}}"
+                        required>
+                    </div>
+                    <div class="form-group mt-4 d-grid gap-2">
+                        <button class="btn btn-success">Guardar</button>
+                        <button class="btn btn-danger"><a class="nav-link link-light" aria-current="page"
+                        href="/listpedido"> Cancelar</a></button>
+                    </div>                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

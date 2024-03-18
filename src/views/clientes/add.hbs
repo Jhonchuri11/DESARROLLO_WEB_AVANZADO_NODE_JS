@@ -1,0 +1,40 @@
+<div class="container p-4" style="margin-top: 70px;">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase">CREAR CLIENTE</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/add" method="post">
+                    <div class="input-group mt-2">
+                        <label for="name" class="input-group-text">Nombre</label>
+                        <input type="text" class="form-control" name="nomcli" id="nomcli" placeholder="Nombres"
+                        autofocus required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="lastname" class="input-group-text">Nombre</label>
+                        <input type="text" class="form-control" name="apecli" id="apecli" placeholder="Apellidos"
+                        required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="age" class="input-group-text">Nro. DNI</label>
+                        <input type="text" class="form-control" name="nrodnicli" id="nrodnicli" placeholder="Nro. DNI"
+                        required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="age" class="input-group-text">Nro. Teléfono</label>
+                        <input type="text" class="form-control" name="telcli" id="telcli" placeholder="Nombres"
+                        required>
+                    </div>
+                    <div class="form-group mt-4 d-grid gap-2">
+                        <button class="btn btn-success">Guardar</button>
+                        <button class="btn btn-danger"><a class="nav-link link-light" aria-current="page"
+                        href="/list"> Cancelar</a></button>
+                    </div>                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
