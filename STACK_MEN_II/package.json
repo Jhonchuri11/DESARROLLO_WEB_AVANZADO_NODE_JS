@@ -12,7 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.19.2",
-    "mongoose": "^8.2.3",
+    "mongoose": "^5.0.12",
     "nodemon": "^3.1.0"
   }
 }
